@@ -39,4 +39,3 @@ private:
 }  // namespace paa5160e1_driver_node
 
 #endif  // ____PAA5160E1_DRIVER_NODE_ODOM_CLASS_HPP__
-

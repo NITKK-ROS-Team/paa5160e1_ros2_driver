@@ -85,4 +85,3 @@ std::tuple<float, float, float, uint32_t, uint32_t> OdomClass::get_data() const
 }
 
 }  // namespace paa5160e1_driver_node
-

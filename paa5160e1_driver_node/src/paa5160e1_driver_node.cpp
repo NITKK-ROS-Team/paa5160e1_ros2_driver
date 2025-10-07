@@ -79,7 +79,9 @@ void Paa5160e1DriverNode::timerCallback()
     }
 
     rclcpp::Time stamp;
-    stamp = rclcpp::Time(static_cast<int64_t>(sec + time_offset_), static_cast<uint32_t>(msec) * 1000000u);
+    stamp = rclcpp::Time(
+      static_cast<int64_t>(sec + time_offset_),
+      static_cast<uint32_t>(msec) * 1000000u);
 
     // Publish odom: base pose has translation only; orientation = identity
     nav_msgs::msg::Odometry odom;
